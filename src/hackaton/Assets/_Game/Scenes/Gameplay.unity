@@ -165,12 +165,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 231035299}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2977b3e1ad8823649acbd7cac7867e07, type: 3}
+  m_Script: {fileID: 11500000, guid: d50687b907644e9db87fa904dd0cbf50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MouseRecordInterval: 0.05
-  m_MaxMousePositions: 5
-  m_FadeFragments: 0
+  MouseRecordInterval: 0.001
+  MaxMousePositions: 50
 --- !u!1 &388776136
 GameObject:
   m_ObjectHideFlags: 0
@@ -181,6 +180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 388776137}
   - component: {fileID: 388776138}
+  - component: {fileID: 388776139}
   m_Layer: 0
   m_Name: TrailRenderer
   m_TagString: Untagged
@@ -224,7 +224,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5d47e0470a9bd37489fa6074bc72fefd, type: 2}
+  - {fileID: 2100000, guid: b1a33df698038714cace629933adc301, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -254,7 +254,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -262,8 +262,62 @@ TrailRenderer:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 0.10073602
+        value: 0.0074626864
+        inSlope: 0.16311099
+        outSlope: 0.16311099
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.20985746
+        value: 0.040454082
+        inSlope: 1.6342237
+        outSlope: 1.6342237
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.27304032
+        value: 0.14924961
+        inSlope: -0.00001849046
+        outSlope: -0.00001849046
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.86414915
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.30871052
+        value: 0.052823633
+        inSlope: -1.3663933
+        outSlope: -1.3663933
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.46757454
+        value: -0.038955744
+        inSlope: 0.01427196
+        outSlope: 0.01427196
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.7080975
+        value: 0
+        inSlope: -0.14117634
+        outSlope: -0.14117634
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
         time: 1
-        value: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -275,20 +329,20 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0, a: 1}
-      key1: {r: 1, g: 0, b: 0, a: 1}
-      key2: {r: 1, g: 0, b: 0, a: 1}
-      key3: {r: 1, g: 0, b: 0, a: 1}
-      key4: {r: 1, g: 0, b: 0, a: 1}
-      key5: {r: 0, g: 0, b: 0, a: 0}
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 1, g: 1, b: 1, a: 1}
+      key3: {r: 1, g: 1, b: 1, a: 1}
+      key4: {r: 1, g: 1, b: 1, a: 1}
+      key5: {r: 1, g: 1, b: 1, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 16384
+      ctime1: 16962
       ctime2: 32768
-      ctime3: 49151
-      ctime4: 65535
-      ctime5: 0
+      ctime3: 36623
+      ctime4: 49151
+      ctime5: 65535
       ctime6: 0
       ctime7: 0
       atime0: 0
@@ -300,17 +354,30 @@ TrailRenderer:
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 5
+      m_NumColorKeys: 6
       m_NumAlphaKeys: 5
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
     textureMode: 0
-    shadowBias: 0.5
+    shadowBias: 0
     generateLightingData: 0
   m_MinVertexDistance: 0.01
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &388776139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388776136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f0a5daa10304b429e64d0ab38537c51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delta: 5
 --- !u!1 &456571849
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Parent: {fileID: 870229580}
   Can: {fileID: 1578436209}
+  PostProcessProfile: {fileID: 11400000, guid: c688fd4f508b88e48bca2fed3128570a, type: 2}
 --- !u!114 &936913673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -490,7 +558,9 @@ GameObject:
   - component: {fileID: 1465548257}
   - component: {fileID: 1465548256}
   - component: {fileID: 1465548255}
-  m_Layer: 0
+  - component: {fileID: 1465548258}
+  - component: {fileID: 1465548259}
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -563,6 +633,83 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1465548258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465548254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 1465548257}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
+--- !u!114 &1465548259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465548254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: c688fd4f508b88e48bca2fed3128570a, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!1 &1578436205
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,7 +722,7 @@ GameObject:
   - component: {fileID: 1578436207}
   - component: {fileID: 1578436206}
   - component: {fileID: 1578436209}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Can
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -592,10 +739,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.3}
+  m_Offset: {x: 0, y: -0.84}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -606,7 +753,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.14, y: 1.2}
+  m_Size: {x: 5.1, y: 1.15}
   m_EdgeRadius: 0
 --- !u!212 &1578436207
 SpriteRenderer:
@@ -668,7 +815,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578436205}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -8.5386, z: -5}
+  m_LocalPosition: {x: 0, y: -9, z: -5}
   m_LocalScale: {x: 2.6208, y: 2.3245378, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -1,3 +1,4 @@
+using UnityEngine.Rendering.PostProcessing;
 using Zenject;
 
 namespace Gameplay
@@ -6,6 +7,7 @@ namespace Gameplay
     {
         public ItemsParent Parent;
         public Can Can;
+        public PostProcessProfile PostProcessProfile;
         
         public override void InstallBindings()
         {
@@ -13,6 +15,10 @@ namespace Gameplay
             Container.Bind<PlayableItemFactory>().AsSingle();
             Container.Bind<ItemsParent>().FromInstance(Parent).AsSingle();
             Container.Bind<LevelBuilder>().AsSingle();
+            Container.Bind<GameplayScore>().AsSingle();
+            Container.BindInterfacesTo<SaturationUpdater>().AsSingle();
+            Container.Bind<PostProcessProfile>().FromScriptableObject(PostProcessProfile).AsSingle();
+            Container.BindInterfacesTo<GameplayArbiter>().AsSingle();
         }
     }
 }
