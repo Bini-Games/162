@@ -8,7 +8,7 @@ class EnteringToMainMenuState : IState
     
     public void Enter()
     {
-        sceneLoader.LoadAsyncSceneBy(Constants.MainMenuSceneName);
+        sceneLoader.LoadSceneWith(Constants.MainMenuSceneName);
         gameStateMachine.Enter<MainMenuState>();
     }
 
