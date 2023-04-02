@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d70a284b594248339a81afe84e004675, type: 3}
   m_Name: GameplayData
   m_EditorClassIdentifier: 
-  MaxPosition: {x: -25, y: 15}
-  MinPosition: {x: -25, y: -3.5}
+  JumpPower: 15
+  MaxPosition: {x: -25, y: 4}
+  MinPosition: {x: -25, y: -15}
   LevelSettings:
-  - MediumDuration: 2
+  - MediumDuration: 3
     MediumDelay: 2
     ItemsForLevel:
     - m_AssetGUID: a2bc8fc720f4642489e820218ec4bf1a
@@ -26,7 +27,31 @@ MonoBehaviour:
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
+    - m_AssetGUID: 1b4d3c66ed16f054799fba36ba15da28
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: 1b4d3c66ed16f054799fba36ba15da28
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: 1b4d3c66ed16f054799fba36ba15da28
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
     - m_AssetGUID: 650e3af7f7962d146ab023ea533d4956
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: 1b4d3c66ed16f054799fba36ba15da28
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: a2bc8fc720f4642489e820218ec4bf1a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: a2bc8fc720f4642489e820218ec4bf1a
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0

@@ -6,6 +6,7 @@ namespace Gameplay
     [CreateAssetMenu(fileName = nameof(GameplayData), menuName = "Game/Gameplay/" + nameof(GameplayData))]
     public class GameplayData : ScriptableObject
     {
+        public float JumpPower;
         public Vector2 MaxPosition;
         public Vector2 MinPosition;
         public List<GameplaySettings> LevelSettings;
