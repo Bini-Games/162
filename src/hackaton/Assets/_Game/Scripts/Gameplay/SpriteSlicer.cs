@@ -59,7 +59,7 @@ namespace Gameplay
 				{
 					for (var loop = 0; loop < mousePositions.Count - 1; loop++)
 					{
-						SpriteSlicer2D.SliceAllSprites(mousePositions[loop].WorldPosition*1.1f, mousePositions[mousePositions.Count - 1].WorldPosition*1.1f, true, ref slicedSpriteInfo);
+						SpriteSlicer2D.SliceAllSprites(mousePositions[loop].WorldPosition, mousePositions[mousePositions.Count - 1].WorldPosition*1.5f, true, ref slicedSpriteInfo);
 
 						if (slicedSpriteInfo.Count <= 0) 
 							continue;
