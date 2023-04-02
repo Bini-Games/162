@@ -13,5 +13,6 @@ public class ProjectInstaller : ScriptableObjectInstaller<ProjectInstaller>
         Container.Bind<GameplayData>().FromScriptableObject(GameplayData).AsSingle();
         Container.Bind<GameStateMachine>().AsSingle();
         Container.Bind<StateFactory>().AsSingle();
+        Container.Bind<SceneLoader>().AsSingle();
     }
 }

@@ -9,20 +9,17 @@ public class GameStateMachine
 
     private Dictionary<Type, IState> stateTypeToInstanceMap = new();
     
-    public void RegisterState(IState create)
-    {
+    public void RegisterState(IState create) => 
         stateTypeToInstanceMap.Add(create.GetType(), create);
-        var state = stateTypeToInstanceMap[typeof(PrepareGameState)];
-        state.Enter();
-    }
 
     public void Enter<T>() where T : IState
     {
-        
+        currentState?.Exit();
+        var state = stateTypeToInstanceMap[typeof(T)];
+        state.Enter();
+        currentState = state;
     }
 
-    public void Exit<T>() where T : IState
-    {
-        
-    }
+    public void Exit<T>() where T : IState => 
+        stateTypeToInstanceMap[typeof(T)].Exit();
 }

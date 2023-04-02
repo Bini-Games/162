@@ -15,6 +15,8 @@ namespace _Game.Scripts.Infrastructure
             gameStateMachine.RegisterState(stateFactory.Create<GamePlayState>());
             gameStateMachine.RegisterState(stateFactory.Create<GamePlayEndState>());
             gameStateMachine.RegisterState(stateFactory.Create<ReloadGamePlayState>());
+            
+            gameStateMachine.Enter<EnteringToMainMenuState>();
         }
     }
 }
