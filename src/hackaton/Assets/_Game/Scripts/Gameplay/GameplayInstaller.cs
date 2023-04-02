@@ -18,6 +18,7 @@ namespace Gameplay
             Container.Bind<GameplayScore>().AsSingle();
             Container.BindInterfacesTo<SaturationUpdater>().AsSingle();
             Container.Bind<PostProcessProfile>().FromScriptableObject(PostProcessProfile).AsSingle();
+            Container.BindInterfacesTo<GameplayArbiter>().AsSingle();
         }
     }
 }
