@@ -7,6 +7,8 @@ namespace Gameplay
 {
     public class PlayableItem : MonoBehaviour
     {
+        public bool Used;
+        
         public bool IsGoodItem;
 
         private GameplayData data;

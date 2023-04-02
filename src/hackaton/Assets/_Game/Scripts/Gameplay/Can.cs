@@ -16,8 +16,11 @@ namespace Gameplay
         private void OnTriggerEnter2D(Collider2D other)
         {
             var playableItem = other.GetComponent<PlayableItem>();
-            if (playableItem != null) 
-                gameplayScore.Value += playableItem.IsGoodItem ? 1 : -1;
+            if (playableItem == null || playableItem.Used)
+                return;
+            
+            gameplayScore.Value += playableItem.IsGoodItem ? 1 : -1;
+            playableItem.Used = true;
         }
     }
 }
