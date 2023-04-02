@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine.AddressableAssets;
 
 namespace Gameplay
 {
@@ -8,6 +9,6 @@ namespace Gameplay
     {
         public float MediumDuration;
         public float MediumDelay;
-        public List<PlayableItem> ItemsForLevel;
+        public List<AssetReference> ItemsForLevel;
     }
 }

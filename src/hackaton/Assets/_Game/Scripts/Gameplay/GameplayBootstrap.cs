@@ -1,12 +1,15 @@
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace Gameplay
 {
     public class GameplayBootstrap : MonoBehaviour
     {
-        private void Start()
+        private LevelBuilder builder;
+        
+        private async UniTask Start()
         {
-            
+            builder.StartInstantiate().Forget();
         }
     }
 }
