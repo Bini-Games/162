@@ -18,7 +18,7 @@ namespace Gameplay
 
         public void Initialize()
         {
-            UpdateSaturation(-3);
+            gameplayScore.Value = -3;
             gameplayScore.OnValueChanged += UpdateSaturation;
         }
 
