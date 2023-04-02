@@ -499,6 +499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Parent: {fileID: 870229580}
   Can: {fileID: 1578436209}
+  PostProcessProfile: {fileID: 11400000, guid: c688fd4f508b88e48bca2fed3128570a, type: 2}
 --- !u!114 &936913673
 MonoBehaviour:
   m_ObjectHideFlags: 0
