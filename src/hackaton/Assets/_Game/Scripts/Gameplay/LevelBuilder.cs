@@ -11,10 +11,11 @@ namespace Gameplay
         private ItemsParent itemsParent;
 
         [Inject]
-        public LevelBuilder(GameplayData gameplayData, ItemsParent itemsParent)
+        public LevelBuilder(GameplayData gameplayData, ItemsParent itemsParent, PlayableItemFactory factory)
         {
             this.gameplayData = gameplayData;
             this.itemsParent = itemsParent;
+            this.factory = factory;
         }
 
         public async UniTask StartInstantiate()

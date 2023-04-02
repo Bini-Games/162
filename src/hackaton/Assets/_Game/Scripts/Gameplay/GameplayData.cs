@@ -19,7 +19,7 @@ namespace Gameplay
             var xPos = Random.Range(MinPosition.x, MaxPosition.x);
             var yPos = Random.Range(MinPosition.y, MaxPosition.y);
 
-            xPos = xPos * Random.value > 0.5f ? 1 : -1;
+            xPos *= Random.value > 0.5f ? 1 : -1;
 
             return new Vector2(xPos, yPos);
         }
