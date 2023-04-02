@@ -23,7 +23,7 @@ namespace Gameplay
 
         private void UpdateSaturation(int value)
         {
-            var score = (float) (gameplayScore.Value - 3) * 10;
+            var score = (float) (gameplayScore.Value - 3) * 20;
             postProcessProfile.GetSetting<ColorGrading>().saturation.value = score;
         }
     }

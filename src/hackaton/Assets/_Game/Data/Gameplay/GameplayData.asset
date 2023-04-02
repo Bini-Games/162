@@ -16,7 +16,7 @@ MonoBehaviour:
   MaxPosition: {x: -25, y: 4}
   MinPosition: {x: -25, y: -15}
   LevelSettings:
-  - MediumDuration: 3
+  - MediumDuration: 5
     MediumDelay: 3
     ItemsForLevel:
     - m_AssetGUID: a2bc8fc720f4642489e820218ec4bf1a
@@ -55,7 +55,7 @@ MonoBehaviour:
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
-  - MediumDuration: 2
+  - MediumDuration: 4
     MediumDelay: 2
     ItemsForLevel:
     - m_AssetGUID: a2bc8fc720f4642489e820218ec4bf1a
@@ -94,7 +94,7 @@ MonoBehaviour:
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
-  - MediumDuration: 1.7
+  - MediumDuration: 3
     MediumDelay: 1.2
     ItemsForLevel:
     - m_AssetGUID: a2bc8fc720f4642489e820218ec4bf1a
@@ -133,4 +133,4 @@ MonoBehaviour:
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
-  CurrentLevel: 2
+  CurrentLevel: 0

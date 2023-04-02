@@ -1,3 +1,4 @@
+using System;
 using DG.Tweening;
 using UnityEngine;
 using Zenject;
@@ -10,12 +11,14 @@ namespace Gameplay
 
         private GameplayData data;
         private Can can;
+        private GameplayScore gameplayScore;
 
         [Inject]
-        private void Construct(GameplayData data, Can can)
+        private void Construct(GameplayData data, Can can, GameplayScore gameplayScore)
         {
             this.data = data;
             this.can = can;
+            this.gameplayScore = gameplayScore;
         }
         
         public void StartMoveToCan()
@@ -25,6 +28,11 @@ namespace Gameplay
                 new Vector3(0, 0, 360), 2, RotateMode.FastBeyond360).SetEase(Ease.Linear);
             sequence.SetLoops(-1);
             sequence.Play();
+        }
+
+        private void OnDestroy()
+        {
+            gameplayScore.Value += IsGoodItem ? 1 : -1;
         }
     }
 }
