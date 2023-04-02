@@ -19,19 +19,23 @@ MonoBehaviour:
   - MediumDuration: 3
     MediumDelay: 3
     ItemsForLevel:
+    - m_AssetGUID: 034b4da6f1d0b4f4c9fd3dd248dffebd
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
     - m_AssetGUID: a2bc8fc720f4642489e820218ec4bf1a
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
-    - m_AssetGUID: 1b4d3c66ed16f054799fba36ba15da28
+    - m_AssetGUID: e1c3b9f81c3fe4a408557dcba63902ed
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
-    - m_AssetGUID: 1b4d3c66ed16f054799fba36ba15da28
+    - m_AssetGUID: b15a961d889c8124b9a51395191834ca
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
-    - m_AssetGUID: 1b4d3c66ed16f054799fba36ba15da28
+    - m_AssetGUID: db556b3037ae404458436b89b93941d3
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
@@ -40,18 +44,6 @@ MonoBehaviour:
       m_SubObjectType: 
       m_EditorAssetChanged: 0
     - m_AssetGUID: 650e3af7f7962d146ab023ea533d4956
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-    - m_AssetGUID: 1b4d3c66ed16f054799fba36ba15da28
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-    - m_AssetGUID: a2bc8fc720f4642489e820218ec4bf1a
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_EditorAssetChanged: 0
-    - m_AssetGUID: a2bc8fc720f4642489e820218ec4bf1a
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
