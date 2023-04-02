@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 52004428087084971}
   - component: {fileID: 1432997343144811630}
   - component: {fileID: 7895672007608735701}
-  - component: {fileID: -7238007959264776696}
+  - component: {fileID: 5343250290888685168}
   m_Layer: 0
   m_Name: Pen
   m_TagString: Untagged
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsGoodItem: 0
---- !u!60 &-7238007959264776696
+--- !u!60 &5343250290888685168
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
