@@ -23,7 +23,7 @@
     <type fullname="UnityEngine.Transform" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.PolygonCollider2D" preserve="all" />
+    <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
     <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
   </assembly>
 </linker>
