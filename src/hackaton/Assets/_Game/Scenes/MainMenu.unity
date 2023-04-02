@@ -1640,7 +1640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8788743042f46779d8d70c04ff90ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnSelectedIcon: {fileID: 0}
+  OnSelectedIcon: {fileID: 466984791}
 --- !u!1 &642916765
 GameObject:
   m_ObjectHideFlags: 0
