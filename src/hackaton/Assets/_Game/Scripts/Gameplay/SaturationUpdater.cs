@@ -27,6 +27,8 @@ namespace Gameplay
             var score = (float) (gameplayScore.Value - 5) * 20;
             if (score > 20) 
                 score = 20;
+            if (score < -99)
+                score = -99;
             
             postProcessProfile.GetSetting<ColorGrading>().saturation.value = score;
         }
