@@ -17,32 +17,64 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 013089f3a0ab2454688b57627cad4d4b
   m_SerializeEntries:
-  - m_GUID: 034b4da6f1d0b4f4c9fd3dd248dffebd
-    m_Address: Assets/_Game/Prefabs/PlayableItems/Mop 2.prefab
+  - m_GUID: 35a98fefad662e34682c86254a7ee915
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (7).prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: e1c3b9f81c3fe4a408557dcba63902ed
-    m_Address: Assets/_Game/Prefabs/PlayableItems/Mop 1.prefab
+  - m_GUID: 3e5abb9cedf82d44485f015d59d5b71a
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (6).prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: a2bc8fc720f4642489e820218ec4bf1a
-    m_Address: Assets/_Game/Prefabs/PlayableItems/Board.prefab
+  - m_GUID: b568cb0ae3d1a1145a9264bdd8accb82
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (5).prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: b15a961d889c8124b9a51395191834ca
-    m_Address: Assets/_Game/Prefabs/PlayableItems/Mop 3.prefab
+  - m_GUID: 474fd4c8bfc96504e956c9531c89ce3a
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (4).prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: db556b3037ae404458436b89b93941d3
-    m_Address: Assets/_Game/Prefabs/PlayableItems/Mop 4.prefab
+  - m_GUID: 180354837223b904d8a52ed2be78b056
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (3).prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 1b4d3c66ed16f054799fba36ba15da28
-    m_Address: Assets/_Game/Prefabs/PlayableItems/Mop.prefab
+  - m_GUID: 313b77717bd132d46a5771f98d97ed82
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (2).prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 650e3af7f7962d146ab023ea533d4956
-    m_Address: Assets/_Game/Prefabs/PlayableItems/Pen.prefab
+  - m_GUID: 1fb78099e8dc1b34986fee9f0e52c726
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (1).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b5b91c0d192711d4992531cf69613b39
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (8).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71ee049544e59a941840027595681557
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (9).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7b50412e0e08e24da0a0fba48b44700
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (10).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 65bcc22b68b741e4cb193c124667fd88
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (11).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6d1f86377a368104597aad764347fdb2
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (12).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d35cb996b5212134cab9737b1ef95fb5
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (13).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 05759834addfb724397a816272b2cb00
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2 (14).prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f06741996be0644b97904537bc52080
+    m_Address: Assets/_Game/Prefabs/NewPlayableItems/Untitled-2.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
