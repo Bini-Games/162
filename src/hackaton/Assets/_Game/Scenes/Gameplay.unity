@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50687b907644e9db87fa904dd0cbf50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MouseRecordInterval: 0.001
+  MouseRecordInterval: 0.05
   MaxMousePositions: 50
 --- !u!1 &388776136
 GameObject:
