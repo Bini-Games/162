@@ -59,7 +59,7 @@ namespace Gameplay
 				{
 					for (var loop = 0; loop < mousePositions.Count - 1; loop++)
 					{
-						SpriteSlicer2D.SliceAllSprites(mousePositions[loop].WorldPosition, mousePositions[mousePositions.Count - 1].WorldPosition, true, ref slicedSpriteInfo);
+						SpriteSlicer2D.SliceAllSprites(mousePositions[loop].WorldPosition*1.1f, mousePositions[mousePositions.Count - 1].WorldPosition*1.1f, true, ref slicedSpriteInfo);
 
 						if (slicedSpriteInfo.Count <= 0) 
 							continue;
@@ -68,11 +68,13 @@ namespace Gameplay
 						// sliced but remaining stationary
 						foreach (var sliceInfo in slicedSpriteInfo)
 						{
+							var direction = Vector3.right;
 							foreach (var sliceObject in sliceInfo.ChildObjects)
 							{
 								Vector2 sliceDirection = mousePositions[^1].WorldPosition - mousePositions[loop].WorldPosition;
 								sliceDirection.Normalize();
-								sliceObject.GetComponent<Rigidbody2D>().AddForce(sliceDirection * 500.0f);
+								sliceObject.GetComponent<Rigidbody2D>().AddForce(direction * 1000.0f);
+								direction *= -1;
 							}
 						}
 
@@ -96,7 +98,7 @@ namespace Gameplay
 				for(int childSprite = 0; childSprite < slicedSpriteInfo[spriteIndex].ChildObjects.Count; childSprite++)
 				{
 					Vector3 spritePosition = slicedSpriteInfo[spriteIndex].ChildObjects[childSprite].transform.position;
-					spritePosition.z = -1.0f;
+					spritePosition.z = -90f;
 					slicedSpriteInfo[spriteIndex].ChildObjects[childSprite].transform.position = spritePosition;
 				}
 			}

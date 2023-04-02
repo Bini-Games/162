@@ -20,7 +20,11 @@ namespace Gameplay
         
         public void StartMoveToCan()
         {
-            transform.DOJump(can.transform.position, data.JumpPower, 1, data.CurrentSettings.MediumDuration).SetEase(Ease.OutCirc);
+            transform.DOJump(can.transform.position + new Vector3(0,-1,0), data.JumpPower, 1, data.CurrentSettings.MediumDuration);
+            var sequence = transform.DORotate(
+                new Vector3(0, 0, 360), 2, RotateMode.FastBeyond360).SetEase(Ease.Linear);
+            sequence.SetLoops(-1);
+            sequence.Play();
         }
     }
 }

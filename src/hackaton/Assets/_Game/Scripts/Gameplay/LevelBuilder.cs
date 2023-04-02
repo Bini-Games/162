@@ -10,6 +10,8 @@ namespace Gameplay
         private PlayableItemFactory factory;
         private ItemsParent itemsParent;
 
+        public event EventHandler OnObjectsFinished;
+
         [Inject]
         public LevelBuilder(GameplayData gameplayData, ItemsParent itemsParent, PlayableItemFactory factory)
         {
@@ -28,6 +30,8 @@ namespace Gameplay
                 
                 await UniTask.Delay(TimeSpan.FromSeconds(gameplayData.CurrentSettings.MediumDelay));
             }
+            
+            OnObjectsFinished?.Invoke(this, EventArgs.Empty);
         }
     }
 }

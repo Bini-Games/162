@@ -13,6 +13,7 @@ namespace Gameplay
             Container.Bind<PlayableItemFactory>().AsSingle();
             Container.Bind<ItemsParent>().FromInstance(Parent).AsSingle();
             Container.Bind<LevelBuilder>().AsSingle();
+            Container.Bind<GameplayScore>().AsSingle();
         }
     }
 }
