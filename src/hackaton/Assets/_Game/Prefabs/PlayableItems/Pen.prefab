@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 52004428087084971}
   - component: {fileID: 1432997343144811630}
   - component: {fileID: 7895672007608735701}
-  - component: {fileID: 7895672007608735698}
+  - component: {fileID: -7238007959264776696}
   m_Layer: 0
   m_Name: Pen
   m_TagString: Untagged
@@ -121,8 +121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsGoodItem: 0
---- !u!61 &7895672007608735698
-BoxCollider2D:
+--- !u!60 &-7238007959264776696
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -144,6 +144,13 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 32.61, y: 21.304775}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 10.158779, y: 4.0284815}
+      - {x: 10.111011, y: 4.0444045}
+      - {x: -8.757568, y: 4.0444045}
+      - {x: -8.789414, y: 4.0125585}
+      - {x: -8.789414, y: -6.1462207}
+      - {x: -8.343575, y: -6.1621437}
+      - {x: 10.604619, y: -6.1621437}
+      - {x: 10.604619, y: 3.2641847}
