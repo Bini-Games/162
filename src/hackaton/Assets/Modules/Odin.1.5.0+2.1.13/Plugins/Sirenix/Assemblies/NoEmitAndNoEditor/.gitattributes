@@ -1,0 +1,1 @@
+*.{anim,asset,bundle,dll,fbx,jpg,so,mp3,mp4,m4v,ogg,otf,png,pdf,prefab,ttf,unity,wav,zip} filter=lfs diff=lfs merge=lfs -text
