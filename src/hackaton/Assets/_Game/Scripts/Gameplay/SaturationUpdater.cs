@@ -24,7 +24,7 @@ namespace Gameplay
 
         private void UpdateSaturation(int value)
         {
-            var score = (float) (gameplayScore.Value - 5) * 20;
+            var score = (float) (gameplayScore.Value - 2) * 20;
             if (score > 20) 
                 score = 20;
             if (score < -99)

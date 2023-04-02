@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -22,6 +23,12 @@ namespace Gameplay
 		{
 			mainCamera = Camera.main;
 			trailRenderer = GetComponentInChildren<TrailRenderer>();
+		}
+
+		private async UniTask DestroyWithTimeout(GameObject item)
+		{
+			await UniTask.Delay(TimeSpan.FromSeconds(2));
+			Destroy(item);
 		}
 
 		private void Update() 
@@ -75,6 +82,7 @@ namespace Gameplay
 								sliceDirection.Normalize();
 								sliceObject.GetComponent<Rigidbody2D>().AddForce(direction * 1000.0f);
 								direction *= -1;
+								DestroyWithTimeout(sliceObject).Forget();
 							}
 						}
 
