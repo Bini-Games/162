@@ -2,6 +2,6 @@
 
 public class SceneLoader
 {
-    public void LoadAsyncSceneBy(string name) => 
+    public void LoadSceneWith(string name) => 
         SceneManager.LoadScene(name);
 }
