@@ -3,7 +3,7 @@ using Zenject;
 
 namespace _Game.Scripts.UI
 {
-    class StartGameButton : UIButton
+    public class StartGameButton : UIButton
     {
         private SceneLoader sceneLoader;
         
