@@ -1,4 +1,5 @@
-﻿using UnityEngine.Rendering.PostProcessing;
+﻿using DG.Tweening;
+using UnityEngine.Rendering.PostProcessing;
 using Zenject;
 
 namespace Gameplay
@@ -23,7 +24,10 @@ namespace Gameplay
 
         private void UpdateSaturation(int value)
         {
-            var score = (float) (gameplayScore.Value - 3) * 20;
+            var score = (float) (gameplayScore.Value - 5) * 20;
+            if (score > 20) 
+                score = 20;
+            
             postProcessProfile.GetSetting<ColorGrading>().saturation.value = score;
         }
     }
