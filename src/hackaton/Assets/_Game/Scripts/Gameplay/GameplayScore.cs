@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 
 namespace Gameplay
 {
@@ -11,6 +12,7 @@ namespace Gameplay
             set
             {
                 OnValueChanged?.Invoke(value);
+                Debug.Log(value);
                 _value = value;
             }
         }

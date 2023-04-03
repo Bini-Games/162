@@ -34,7 +34,7 @@ namespace Gameplay
 
         private void OnDestroy()
         {
-            gameplayScore.Value += IsGoodItem ? 1 : -1;
+            gameplayScore.Value += IsGoodItem ? -1 : 1;
         }
     }
 }
