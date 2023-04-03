@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Gameplay
+  m_EditorClassIdentifier: 
+  m_GroupName: Gameplay
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 013089f3a0ab2454688b57627cad4d4b
+  m_SerializeEntries:
+  - m_GUID: 35a98fefad662e34682c86254a7ee915
+    m_Address: Good2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3e5abb9cedf82d44485f015d59d5b71a
+    m_Address: Good1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b568cb0ae3d1a1145a9264bdd8accb82
+    m_Address: Good1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 474fd4c8bfc96504e956c9531c89ce3a
+    m_Address: Good3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 180354837223b904d8a52ed2be78b056
+    m_Address: Good1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 313b77717bd132d46a5771f98d97ed82
+    m_Address: Good1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1fb78099e8dc1b34986fee9f0e52c726
+    m_Address: Good1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b5b91c0d192711d4992531cf69613b39
+    m_Address: Good2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71ee049544e59a941840027595681557
+    m_Address: Bad1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7b50412e0e08e24da0a0fba48b44700
+    m_Address: Bad1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 65bcc22b68b741e4cb193c124667fd88
+    m_Address: Bad2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6d1f86377a368104597aad764347fdb2
+    m_Address: Bad2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d35cb996b5212134cab9737b1ef95fb5
+    m_Address: Bad3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 05759834addfb724397a816272b2cb00
+    m_Address: Bad3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f06741996be0644b97904537bc52080
+    m_Address: Good3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0fa3195917a398d41b4eda765205f5e2, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9f5e6897b3463934da0bc0b622dd6d52, type: 2}
+    - {fileID: 11400000, guid: 1179afff242b6bf4c895dccf4578d73a, type: 2}
