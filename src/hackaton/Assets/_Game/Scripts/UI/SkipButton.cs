@@ -17,7 +17,7 @@ namespace _Game.Scripts.UI
             this.gameStateMachine = gameStateMachine;
 
         protected override void OnClick() => 
-            gameStateMachine.Enter<EnteringToMainMenuState>();
+            gameStateMachine.Enter<MainMenuState>();
 
         private void Start()
         {

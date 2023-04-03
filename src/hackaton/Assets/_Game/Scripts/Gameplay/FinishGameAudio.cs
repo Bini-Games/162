@@ -22,6 +22,6 @@ public class FinishGameAudio : MonoBehaviour
     {
         AudioSource.Play();
         await UniTask.WaitWhile(() => AudioSource.isPlaying);
-        gameStateMachine.Enter<EnteringToMainMenuState>();
+        gameStateMachine.Enter<MainMenuState>();
     }
 }

@@ -665,8 +665,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 337536445}
-  - component: {fileID: 337536446}
-  - component: {fileID: 337536447}
   - component: {fileID: 337536448}
   m_Layer: 5
   m_Name: Card (1)
@@ -698,32 +696,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -79.5}
   m_SizeDelta: {x: 540, y: 864}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &337536446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337536444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8788743042f46779d8d70c04ff90ea2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnSelectedIcon: {fileID: 409356913}
---- !u!114 &337536447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337536444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 069506c78d9143f998ad1df763b5cc69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Difficulty: 1
 --- !u!114 &337536448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -736,6 +708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d4bc0746034f5b8b3a2cc176a31aaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Difficulty: 1
 --- !u!1 &348123550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1581,8 +1554,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 552784467}
-  - component: {fileID: 552784470}
-  - component: {fileID: 552784469}
   - component: {fileID: 552784468}
   m_Layer: 5
   m_Name: Card (2)
@@ -1626,32 +1597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d4bc0746034f5b8b3a2cc176a31aaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &552784469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 552784466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 069506c78d9143f998ad1df763b5cc69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   Difficulty: 2
---- !u!114 &552784470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 552784466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8788743042f46779d8d70c04ff90ea2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnSelectedIcon: {fileID: 466984791}
 --- !u!1 &600756145
 GameObject:
   m_ObjectHideFlags: 0
@@ -4551,6 +4497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d4bc0746034f5b8b3a2cc176a31aaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Difficulty: 0
 --- !u!1 &1539305646
 GameObject:
   m_ObjectHideFlags: 0
@@ -4940,8 +4887,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1585122421}
-  - component: {fileID: 1585122422}
-  - component: {fileID: 1585122423}
   - component: {fileID: 1585122424}
   m_Layer: 5
   m_Name: Card
@@ -4973,32 +4918,6 @@ RectTransform:
   m_AnchoredPosition: {x: -480, y: -79.5}
   m_SizeDelta: {x: 540, y: 864}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1585122422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1585122420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8788743042f46779d8d70c04ff90ea2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnSelectedIcon: {fileID: 409356913}
---- !u!114 &1585122423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1585122420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 069506c78d9143f998ad1df763b5cc69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Difficulty: 0
 --- !u!114 &1585122424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5011,6 +4930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d4bc0746034f5b8b3a2cc176a31aaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Difficulty: 0
 --- !u!1 &1608721701
 GameObject:
   m_ObjectHideFlags: 0

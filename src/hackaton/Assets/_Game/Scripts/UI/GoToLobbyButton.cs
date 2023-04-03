@@ -7,12 +7,10 @@ namespace _Game.Scripts.UI
         private GameStateMachine gameStateMachine;
 
         [Inject]
-        private void Construct(GameStateMachine gameStateMachine)
-        {
+        private void Construct(GameStateMachine gameStateMachine) => 
             this.gameStateMachine = gameStateMachine;
-        }
-        
+
         protected override void OnClick() => 
-            gameStateMachine.Enter<EnteringToMainMenuState>();
+            gameStateMachine.Enter<MainMenuState>();
     }
 }
