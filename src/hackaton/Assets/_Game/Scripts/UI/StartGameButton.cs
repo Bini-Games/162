@@ -1,4 +1,5 @@
 ﻿using _Game.Scripts.Data;
+using Gameplay;
 using Zenject;
 
 namespace _Game.Scripts.UI
@@ -7,11 +8,21 @@ namespace _Game.Scripts.UI
     {
         private SceneLoader sceneLoader;
         
-        [Inject]
-        private void Construct(SceneLoader sceneLoader) => 
-            this.sceneLoader = sceneLoader;
+        private GameplayData gameplayData;
 
-        protected override void OnClick() => 
+        public Difficulty Difficulty;
+
+        [Inject]
+        private void Construct(SceneLoader sceneLoader, GameplayData gameplayData)
+        {
+            this.sceneLoader = sceneLoader;
+            this.gameplayData = gameplayData;
+        }
+
+        protected override void OnClick()
+        {
+            gameplayData.CurrentLevel = (int) Difficulty;
             sceneLoader.LoadSceneWith(Constants.GamePlayScene);
+        }
     }
 }
