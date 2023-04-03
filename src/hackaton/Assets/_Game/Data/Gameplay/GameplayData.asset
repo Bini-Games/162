@@ -16,8 +16,8 @@ MonoBehaviour:
   MaxPosition: {x: -25, y: 4}
   MinPosition: {x: -25, y: -15}
   LevelSettings:
-  - MediumDuration: 5
-    MediumDelay: 3
+  - MediumDuration: 7
+    MediumDelay: 5
     ItemsForLevel:
     - m_AssetGUID: 35a98fefad662e34682c86254a7ee915
       m_SubObjectName: 
@@ -285,4 +285,4 @@ MonoBehaviour:
       m_SubObjectName: 
       m_SubObjectType: 
       m_EditorAssetChanged: 0
-  CurrentLevel: 2
+  CurrentLevel: 0
