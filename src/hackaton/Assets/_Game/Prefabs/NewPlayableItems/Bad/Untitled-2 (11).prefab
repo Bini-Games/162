@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4754649369553736805}
   - component: {fileID: 4754649369553736804}
   - component: {fileID: 4754649369553736803}
-  - component: {fileID: 4754649369553736802}
   - component: {fileID: 4754649369553736800}
+  - component: {fileID: 6659804704268375209}
   m_Layer: 0
   m_Name: Untitled-2 (11)
   m_TagString: Untagged
@@ -108,7 +108,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &4754649369553736802
+--- !u!114 &4754649369553736800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4754649369553736807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aba4b18e13e2454d959cb7a8abb928b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Used: 0
+  IsGoodItem: 0
+--- !u!60 &6659804704268375209
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,22 +175,3 @@ PolygonCollider2D:
       - {x: 0.26999998, y: -0.71}
       - {x: 0.39, y: -0.62}
       - {x: 0.48, y: -0.45999998}
-    - - {x: 0.5, y: -0.57}
-      - {x: 0.53, y: -0.56}
-      - {x: 0.53, y: -0.53}
-      - {x: 0.5, y: -0.52}
-      - {x: 0.48, y: -0.53999996}
---- !u!114 &4754649369553736800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4754649369553736807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aba4b18e13e2454d959cb7a8abb928b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Used: 0
-  IsGoodItem: 0
